@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Logic
   - Offscreen
+  - SoundManager
   layers:
   - Default
   - TransparentFX
