@@ -32,6 +32,19 @@ public class Bird : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        Die();
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        // If the Bird hits the OffscreenTrigger, it should die
+        if (collision.gameObject.tag == "Offscreen")
+        {
+            Die();
+        }
+    }
+    private void Die()
+    {
         isBirdAlive = false;
         logic.gameOver();
     }
