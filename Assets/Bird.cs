@@ -9,6 +9,7 @@ public class Bird : MonoBehaviour
 
     public Rigidbody2D RigidBody;
     public LogicManager logic;
+    public SoundManager soundManager;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +28,7 @@ public class Bird : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             RigidBody.velocity = Vector2.up * flapStrength;
+            soundManager.Play("WingFlap");
         }
     }
 
