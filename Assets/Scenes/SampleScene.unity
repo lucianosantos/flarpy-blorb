@@ -561,7 +561,7 @@ MonoBehaviour:
   Pipe: {fileID: 151760444901099925, guid: 0480e0725a886ac4bba895d81c4461a2, type: 3}
   SpawnRate: 3
   Timer: 0
-  HeightOffset: 10
+  HeightOffset: 7
 --- !u!4 &1230518398
 Transform:
   m_ObjectHideFlags: 0
