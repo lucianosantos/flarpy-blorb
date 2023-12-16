@@ -9,8 +9,8 @@ The objective of this repo is to learn Unity.
 ## Credits
 
 ### Sounds
-Game Over - https://pixabay.com/users/floraphonic-38928062/
+Game Over - https://pixabay.com/sound-effects/violin-lose-1-175615/
 
-Score up - https://pixabay.com/users/universfield-28281460/
+Score up - https://pixabay.com/sound-effects/message-incoming-132126/
 
-Soundtrack - https://pixabay.com/users/lucadialessandro-25927643/
+Soundtrack - https://pixabay.com/music/introoutro-a-celestial-keyboard-171814/
